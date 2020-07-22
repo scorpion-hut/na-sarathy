@@ -12,6 +12,18 @@
  */
 
 
+.iframe-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  height:0;
+}
+.iframe-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
 
 
 /*know more button style
@@ -20,10 +32,13 @@
 
 /* 
  * 1. LOGO 
+
+  font-family:'Origami';
+
+
  */
 
 .logo{
-	font-family:'Origami';
 	font-weight:normal;
 	font-style: normal;
 }
